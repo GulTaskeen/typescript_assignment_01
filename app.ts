@@ -1,0 +1,40 @@
+import { askForNameAndGenerateMessage } from './ts_files/02_personal_message';
+import { showNameCases } from './ts_files/03_name_cases';
+import { showFamousQoute } from './ts_files/04_05_famous_quote';
+import { stripWhitespace } from './ts_files/06_stripping_names';
+import { showNumberEight } from './ts_files/07_number_eight';
+import { printNumberEightFourTimes } from './ts_files/08_four_lines';
+import { printFriendNames } from './ts_files/11_friends_names';
+import { greetingFreinds as greetFreinds } from './ts_files/12_greetings';
+import { transportationStatements} from './ts_files/13_favorite_transportation';
+import { inviteToDinner,newInvitations} from './ts_files/14_15_guest_list';
+import { addMoreGuests} from './ts_files/16_more_guests';
+
+const friends: string[] = ['Ikram', 'Iqra'];
+
+(async () => {
+    console.log('Task 2. ');
+    // const name = await askForNameAndGenerateMessage();
+    console.log('\nTask 3. ');
+    showNameCases();
+    console.log('\nTask 4,5. ');
+    showFamousQoute();
+    console.log('\nTask 6. ');
+    stripWhitespace();
+    console.log('\nTask 7. ');
+    showNumberEight();
+    console.log('\nTask 8. ');
+    printNumberEightFourTimes();
+    console.log('\nTask 11. ');
+    printFriendNames(friends);
+    console.log('\nTask 12. ');
+    greetFreinds(friends);
+    console.log('\nTask 13. ');
+    transportationStatements();
+    console.log('\nTask 14. ');
+    inviteToDinner();
+    console.log('\nTask 15. ');
+    newInvitations();
+    console.log('\nTask 16. ');
+    addMoreGuests();
+  })();

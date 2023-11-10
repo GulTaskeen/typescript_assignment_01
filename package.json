@@ -1,0 +1,22 @@
+{
+  "name": "personal_message",
+  "version": "1.0.0",
+  "description": "Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[\"typescript\"",
+    "\"nodejs\"",
+    "\"web",
+    "development\"",
+    "\"backend\"]"
+  ],
+  "author": "gul taskeen gultaskeen600@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
